@@ -1,5 +1,5 @@
 body {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   color: #1F2041;
 }
 
@@ -10,7 +10,6 @@ body {
   font-size: 14px;
   line-height: 17px;
   color: #1F2041;
-
 }
 
 .headers__logo {
@@ -26,11 +25,15 @@ a.headers__item {
   opacity: 0.5;
   margin-right: 29px;
   text-decoration: none;
+  transition: opacity 0.1s linear;
+}
+a.headers__item:hover {
+  opacity: 0.75;
 }
 
 .headers__user {
   padding-left: 29px;
-  border-left: 1px solid rgba(#1F2041,0.1);
+  border-left: 1px solid rgba(31, 32, 65, 0.1);
 }
 
 a.headers__item_active {
@@ -43,43 +46,52 @@ a.headers__item_active {
   img.headers__img {
     width: 100px;
   }
+
   .headers {
     font-size: 13px;
   }
+
   a.headers__item {
     margin-right: 15px;
   }
+
   a.headers__user {
     padding-left: 15px;
   }
 }
-
 @media (max-width: 730px) {
   img.headers__img {
     width: 75px;
   }
+
   .headers {
     font-size: 10px;
   }
+
   a.headers__item {
     margin-right: 10px;
   }
+
   a.headers__user {
     padding-left: 10px;
   }
 }
-
 @media (max-width: 600px) {
   img.headers__img {
     width: 50px;
   }
+
   .headers {
     font-size: 8px;
   }
+
   a.headers__item {
     margin-right: 8px;
   }
+
   a.headers__user {
     padding-left: 8px;
   }
 }
+
+/*# sourceMappingURL=/headers.486e29d0.css.map */

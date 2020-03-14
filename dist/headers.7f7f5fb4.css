@@ -25,6 +25,10 @@ a.headers__item {
   opacity: 0.5;
   margin-right: 29px;
   text-decoration: none;
+  transition: opacity 0.1s linear;
+}
+a.headers__item:hover {
+  opacity: 0.75;
 }
 
 .headers__user {

@@ -1,0 +1,67 @@
+.standart-nav {
+  font-family: "Montserrat", sans-serif;
+  color: #1F2041;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 14px;
+  line-height: 17px;
+}
+
+.standart-nav__logo {
+  padding: 30px;
+}
+
+.standart-nav__nav {
+  display: inline-block;
+  white-space: nowrap;
+}
+
+a.standart-nav__item {
+  opacity: 0.5;
+  margin-right: 29px;
+  text-decoration: none;
+  transition: opacity 0.1s linear;
+}
+a.standart-nav__item:hover {
+  opacity: 0.75;
+}
+
+a.standart-nav__item_active {
+  color: #1F2041;
+  opacity: 0.75;
+  font-weight: bold;
+}
+
+.standart-nav__sign-in {
+  margin-right: 18px;
+  border: 2px solid #BC9CFF;
+  border-radius: 22px;
+  padding: 10px 19px;
+}
+
+a.standart-nav__sign-in {
+  text-decoration: none;
+  color: #BC9CFF;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 15px;
+  text-transform: uppercase;
+}
+
+.standart-nav__sign-up {
+  background: linear-gradient(180deg, #BC9CFF 0%, #8BA4F9 100%);
+  padding: 10px 19px;
+  border-radius: 22px;
+}
+
+a.standart-nav__sign-up {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 15px;
+  text-transform: uppercase;
+}
+
+/*# sourceMappingURL=/standart-nav.593a214e.css.map */
